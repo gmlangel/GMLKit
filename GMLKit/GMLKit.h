@@ -1,19 +1,15 @@
+//  头文件集合
+//  NSObject_GMLKit.h
+//  MyTalk
 //
-//  GMLKit.h
-//  GMLKit
-//
-//  Created by guominglong on 16/5/17.
+//  Created by guominglong on 16/5/9.
 //  Copyright © 2016年 guominglong. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
-
-//! Project version number for GMLKit.
-FOUNDATION_EXPORT double GMLKitVersionNumber;
-
-//! Project version string for GMLKit.
-FOUNDATION_EXPORT const unsigned char GMLKitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <GMLKit/PublicHeader.h>
-
-
+#import <GMLKit/GMLEvent.h>
+#import <GMLKit/GMLCoreDispatcher.h>
+#import <GMLKit/GMLExtension.h>
+#import <GMLKit/GMLViewProtocal.h>
+#import <GMLKit/GMLProxy.h>
+#import <GMLKit/GMLProxyFactory.h>
+#import <GMLKit/GMLKitTool.h>

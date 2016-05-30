@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E3E7C151CEAE8A0009BD2A9 /* GMLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C141CEAE8A0009BD2A9 /* GMLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C291CEAE96C009BD2A9 /* GMLCoreDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C1C1CEAE96C009BD2A9 /* GMLCoreDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C2A1CEAE96C009BD2A9 /* GMLCoreDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E7C1D1CEAE96C009BD2A9 /* GMLCoreDispatcher.m */; };
+		4E3E7C2B1CEAE96C009BD2A9 /* GMLEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C1E1CEAE96C009BD2A9 /* GMLEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C2C1CEAE96C009BD2A9 /* GMLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E7C1F1CEAE96C009BD2A9 /* GMLEvent.m */; };
+		4E3E7C2D1CEAE96C009BD2A9 /* GMLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C201CEAE96C009BD2A9 /* GMLExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C2E1CEAE96C009BD2A9 /* GMLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C211CEAE96C009BD2A9 /* GMLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C2F1CEAE96C009BD2A9 /* GMLKitTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C221CEAE96C009BD2A9 /* GMLKitTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C301CEAE96C009BD2A9 /* GMLKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E7C231CEAE96C009BD2A9 /* GMLKitTool.m */; };
+		4E3E7C311CEAE96C009BD2A9 /* GMLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C241CEAE96C009BD2A9 /* GMLProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C321CEAE96C009BD2A9 /* GMLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E7C251CEAE96C009BD2A9 /* GMLProxy.m */; };
+		4E3E7C331CEAE96C009BD2A9 /* GMLProxyFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C261CEAE96C009BD2A9 /* GMLProxyFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3E7C341CEAE96C009BD2A9 /* GMLProxyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E7C271CEAE96C009BD2A9 /* GMLProxyFactory.m */; };
+		4E3E7C351CEAE96C009BD2A9 /* GMLViewProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3E7C281CEAE96C009BD2A9 /* GMLViewProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E3E7C111CEAE8A0009BD2A9 /* GMLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E3E7C141CEAE8A0009BD2A9 /* GMLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLKit.h; sourceTree = "<group>"; };
 		4E3E7C161CEAE8A0009BD2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3E7C1C1CEAE96C009BD2A9 /* GMLCoreDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLCoreDispatcher.h; sourceTree = "<group>"; };
+		4E3E7C1D1CEAE96C009BD2A9 /* GMLCoreDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLCoreDispatcher.m; sourceTree = "<group>"; };
+		4E3E7C1E1CEAE96C009BD2A9 /* GMLEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLEvent.h; sourceTree = "<group>"; };
+		4E3E7C1F1CEAE96C009BD2A9 /* GMLEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLEvent.m; sourceTree = "<group>"; };
+		4E3E7C201CEAE96C009BD2A9 /* GMLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLExtension.h; sourceTree = "<group>"; };
+		4E3E7C211CEAE96C009BD2A9 /* GMLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLKit.h; sourceTree = "<group>"; };
+		4E3E7C221CEAE96C009BD2A9 /* GMLKitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLKitTool.h; sourceTree = "<group>"; };
+		4E3E7C231CEAE96C009BD2A9 /* GMLKitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLKitTool.m; sourceTree = "<group>"; };
+		4E3E7C241CEAE96C009BD2A9 /* GMLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLProxy.h; sourceTree = "<group>"; };
+		4E3E7C251CEAE96C009BD2A9 /* GMLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLProxy.m; sourceTree = "<group>"; };
+		4E3E7C261CEAE96C009BD2A9 /* GMLProxyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLProxyFactory.h; sourceTree = "<group>"; };
+		4E3E7C271CEAE96C009BD2A9 /* GMLProxyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMLProxyFactory.m; sourceTree = "<group>"; };
+		4E3E7C281CEAE96C009BD2A9 /* GMLViewProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLViewProtocal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +70,19 @@
 		4E3E7C131CEAE8A0009BD2A9 /* GMLKit */ = {
 			isa = PBXGroup;
 			children = (
-				4E3E7C141CEAE8A0009BD2A9 /* GMLKit.h */,
+				4E3E7C1C1CEAE96C009BD2A9 /* GMLCoreDispatcher.h */,
+				4E3E7C1D1CEAE96C009BD2A9 /* GMLCoreDispatcher.m */,
+				4E3E7C1E1CEAE96C009BD2A9 /* GMLEvent.h */,
+				4E3E7C1F1CEAE96C009BD2A9 /* GMLEvent.m */,
+				4E3E7C201CEAE96C009BD2A9 /* GMLExtension.h */,
+				4E3E7C211CEAE96C009BD2A9 /* GMLKit.h */,
+				4E3E7C221CEAE96C009BD2A9 /* GMLKitTool.h */,
+				4E3E7C231CEAE96C009BD2A9 /* GMLKitTool.m */,
+				4E3E7C241CEAE96C009BD2A9 /* GMLProxy.h */,
+				4E3E7C251CEAE96C009BD2A9 /* GMLProxy.m */,
+				4E3E7C261CEAE96C009BD2A9 /* GMLProxyFactory.h */,
+				4E3E7C271CEAE96C009BD2A9 /* GMLProxyFactory.m */,
+				4E3E7C281CEAE96C009BD2A9 /* GMLViewProtocal.h */,
 				4E3E7C161CEAE8A0009BD2A9 /* Info.plist */,
 			);
 			path = GMLKit;
@@ -59,7 +95,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3E7C151CEAE8A0009BD2A9 /* GMLKit.h in Headers */,
+				4E3E7C2D1CEAE96C009BD2A9 /* GMLExtension.h in Headers */,
+				4E3E7C2B1CEAE96C009BD2A9 /* GMLEvent.h in Headers */,
+				4E3E7C2E1CEAE96C009BD2A9 /* GMLKit.h in Headers */,
+				4E3E7C2F1CEAE96C009BD2A9 /* GMLKitTool.h in Headers */,
+				4E3E7C331CEAE96C009BD2A9 /* GMLProxyFactory.h in Headers */,
+				4E3E7C311CEAE96C009BD2A9 /* GMLProxy.h in Headers */,
+				4E3E7C351CEAE96C009BD2A9 /* GMLViewProtocal.h in Headers */,
+				4E3E7C291CEAE96C009BD2A9 /* GMLCoreDispatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +138,7 @@
 				TargetAttributes = {
 					4E3E7C101CEAE8A0009BD2A9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9Q972K774Y;
 					};
 				};
 			};
@@ -130,6 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3E7C2A1CEAE96C009BD2A9 /* GMLCoreDispatcher.m in Sources */,
+				4E3E7C341CEAE96C009BD2A9 /* GMLProxyFactory.m in Sources */,
+				4E3E7C2C1CEAE96C009BD2A9 /* GMLEvent.m in Sources */,
+				4E3E7C301CEAE96C009BD2A9 /* GMLKitTool.m in Sources */,
+				4E3E7C321CEAE96C009BD2A9 /* GMLProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +276,8 @@
 		4E3E7C1A1CEAE8A0009BD2A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Mac Developer: Guo MingLong (YD64D2FJH7)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -234,15 +285,20 @@
 				INFOPLIST_FILE = GMLKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51talkdeveloper.GMLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Debug;
 		};
 		4E3E7C1B1CEAE8A0009BD2A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Mac Developer: Guo MingLong (YD64D2FJH7)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -250,9 +306,11 @@
 				INFOPLIST_FILE = GMLKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.51talkdeveloper.GMLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Release;
 		};
